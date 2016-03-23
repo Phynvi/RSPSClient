@@ -396,8 +396,8 @@ Class8 class8 = method198(i);
             class8.anInt188 = -1;
             class8.anInt165 = 10057;
             class8.anInt200 = 10056;
-            class8.aString170 = "Void k***ht robe";
-            class8.aByteArray178 = "Leg armour of the order of the Void K***hts.".getBytes();
+            class8.aString170 = "Void knight robe";
+            class8.aByteArray178 = "Leg armour of the order of the Void Knights.".getBytes();
         }
         if(i == 8839)
         {
@@ -419,8 +419,8 @@ Class8 class8 = method198(i);
           class8.anInt188 = 10051;
           class8.anInt164 = 10054;
           class8.aBoolean176 = false;
-          class8.aString170 = "Void k***ht Top";
-          class8.aByteArray178 = "Torso armour of the order of the Void K***hts.".getBytes();
+          class8.aString170 = "Void knight Top";
+          class8.aByteArray178 = "Torso armour of the order of the Void Knights.".getBytes();
       }
         
         if(i == 8841)
@@ -446,8 +446,8 @@ Class8 class8 = method198(i);
             class8.anInt197 = 116;
             class8.anInt173 = 120;
             class8.aBoolean176 = false;
-            class8.aString170 = "Void K***ht Mace";
-            class8.aByteArray178 = "A mace used by the order of the Void k***hts.".getBytes();
+            class8.aString170 = "Void Knight Mace";
+            class8.aByteArray178 = "A mace used by the order of the Void knights.".getBytes();
         }
         
         if(i == 10887)
@@ -921,6 +921,18 @@ class8.aByteArray178 = "A heavy shield with a snarling, draconic visage.".getByt
 		}
  
 
+		if(i == 720){
+			class8.aByteArray178 = "A sketch of a special Totem.".getBytes();
+		}
+		if(i == 749){
+			class8.aString170 = "Special Totem";
+			class8.aByteArray178 = "A special Totem.".getBytes();
+		}
+		if(i == 750){
+			class8.aString170 = "Golden Totem";
+			class8.aByteArray178 = "A special golden Totem.".getBytes();
+		}
+		
 if(i == 11337)
 {
 class8.aStringArray189 = new String[5];
@@ -935,6 +947,8 @@ class8.anInt165 = 13699;
 class8.anInt200 = 13699;
 class8.anInt188 = -1;
 class8.anInt164 = -1;
+class8.anInt175 = -1;
+class8.anInt197 = -1;
 class8.aString170 = "Dragon claws";
 class8.aByteArray178 = "A set of fighting claws.".getBytes();
 }

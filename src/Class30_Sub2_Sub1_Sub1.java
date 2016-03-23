@@ -40,7 +40,7 @@ public final class Class30_Sub2_Sub1_Sub1 extends Class30_Sub2_Sub1
         aBoolean1438 = false;
         try
         {
-            Image image = Toolkit.getDefaultToolkit().createImage("./galkon.png");
+            Image image = Toolkit.getDefaultToolkit().createImage("./Sprites/background.png");
             MediaTracker mediatracker = new MediaTracker(component);
             mediatracker.addImage(image, 0);
             mediatracker.waitForAll();

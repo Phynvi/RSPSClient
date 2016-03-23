@@ -29,7 +29,7 @@ final class Class5
     class5.aByteArray89 = "I can exchange my Server Tokens with him.".getBytes();
      }
 
-		if(i == 3000) { // NPC ID
+		if(i == 3000) { // General Graardor
 		         class5.anInt91 = 110;
 class5.anInt86 = 110;
  class5.aByte68 = 5;
@@ -54,8 +54,13 @@ class5.anInt86 = 110;
 			class5.anInt61 = 624; //combat level
 			class5.aByteArray89 = "The mighty lord Bandos!".getBytes(); // NPC description
 		}
+		
+		if(i == 1101){
+      class5.aString65 = "Dangerous Thrower Troll"; // NPC name
+      class5.anInt61 = 142; // combat level
+		}
 
-        if (i == 3001) { // NPC ID you can change this if u like
+        if (i == 3001) { // Kree'arra
         		         class5.anInt91 = 110;
 class5.anInt86 = 110;
  class5.aByte68 = 5;
