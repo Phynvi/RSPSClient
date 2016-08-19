@@ -614,7 +614,7 @@ implements Runnable, MouseListener, MouseMotionListener, KeyListener, FocusListe
 		}
 	}
 	
-	public JFrame mapFrame = new ViewImageInFrame(sign.signlink.findcachedir()+"/WorldMapVersion8.png");
+	public JFrame mapFrame = new ViewImageInFrame(sign.signlink.findcachedir()+"/WorldMapVersion8.png",10, 2, 2, 800, 600);
 
 	public void toggleMap(){
 		if(mapFrame != null){
