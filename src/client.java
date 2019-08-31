@@ -1877,7 +1877,7 @@ public final class client extends Applet_Sub1 {
 			if(i1 > 15)
 				i1 -= 32;
 			int j1 = class30_sub2_sub2.method419(1, 0);
-			class30_sub2_sub4_sub1_sub1.aClass5_1696 = Class5.method159(class30_sub2_sub2.method419(14, 0)); //TODO this used to be 12,0, has to do with npc updating
+			class30_sub2_sub4_sub1_sub1.aClass5_1696 = Class5.method159(class30_sub2_sub2.method419(12, 0)); //TODO this used to be 12,0, has to do with npc updating
 			int k1 = class30_sub2_sub2.method419(1, 0);
 			if(k1 == 1)
 				anIntArray894[anInt893++] = k;

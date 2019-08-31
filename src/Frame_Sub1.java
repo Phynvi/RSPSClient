@@ -9,7 +9,7 @@ public final class Frame_Sub1 extends Frame
         aBoolean35 = true;
         anApplet_Sub1_36 = applet_sub1;
         setTitle(client.SERVERNAME);
-        setResizable(false);
+        setResizable(true);
         show();
         if(byte0 != 5)
             aBoolean35 = !aBoolean35;
